@@ -1,5 +1,5 @@
 {
-  "name": "paper-radio-button",
+  "name": "icewhite-radio-button",
   "version": "2.0.0",
   "description": "A material design radio button",
   "authors": [
@@ -14,11 +14,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-radio-button"
+    "url": "git://github.com/PolymerElements/icewhite-radio-button"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/paper-radio-button",
-  "main": "paper-radio-button.html",
+  "homepage": "https://github.com/PolymerElements/icewhite-radio-button",
+  "main": "icewhite-radio-button.html",
   "ignore": [],
   "dependencies": {
     "iron-checked-element-behavior": "PolymerElements/iron-checked-element-behavior#1 - 2",
