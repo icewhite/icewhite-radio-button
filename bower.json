@@ -1,9 +1,9 @@
 {
   "name": "icewhite-radio-button",
   "version": "2.0.0",
-  "description": "A material design radio button",
+  "description": "A material design radio button styled like a button",
   "authors": [
-    "The Polymer Authors"
+    "Iain White"
   ],
   "keywords": [
     "web-components",
@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/icewhite-radio-button"
+    "url": "git://github.com/icewhite/icewhite-radio-button"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/icewhite-radio-button",

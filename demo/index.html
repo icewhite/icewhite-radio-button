@@ -10,7 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
 <head>
-  <title>paper-radio-button demo</title>
+  <title>icewhite-radio-button demo</title>
 
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
   <meta name="mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         max-width: 630px;
       }
 
-      paper-radio-button {
+      icewhite-radio-button {
         margin-right: 24px;
       }
     </style>
@@ -39,16 +39,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <h3>Radio buttons can be checked or unchecked, or disabled entirely</h3>
     <demo-snippet class="centered-demo">
       <template>
-        <paper-radio-button>Radio</paper-radio-button>
-        <paper-radio-button checked>Radio</paper-radio-button>
-        <paper-radio-button disabled>Disabled</paper-radio-button>
+        <icewhite-radio-button>Radio</icewhite-radio-button>
+        <icewhite-radio-button checked>Radio</icewhite-radio-button>
+        <icewhite-radio-button disabled>Disabled</icewhite-radio-button>
+        <icewhite-radio-button disabled checked >Disabled &amp; checked</icewhite-radio-button>
       </template>
     </demo-snippet>
 
-    <h3>Radio buttons can hide the ripple effect using the <i>noink</i> attribute</h3>
+    <h3>Button elevation can be changed</h3>
     <demo-snippet class="centered-demo">
       <template>
-        <paper-radio-button noink>Radio</paper-radio-button>
+        <icewhite-radio-button elevation="1">Radio</icewhite-radio-button>
+        <icewhite-radio-button elevation="3" checked>Radio</icewhite-radio-button>
+        <icewhite-radio-button elevation="5" disabled>Disabled</icewhite-radio-button>
       </template>
     </demo-snippet>
 
@@ -57,25 +60,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <template>
         <custom-style>
           <style is="custom-style">
-            paper-radio-button.red {
-              --paper-radio-button-checked-color: var(--paper-red-500);
-              --paper-radio-button-checked-ink-color: var(--paper-red-500);
-              --paper-radio-button-unchecked-color: var(--paper-red-900);
-              --paper-radio-button-unchecked-ink-color: var(--paper-red-900);
-              --paper-radio-button-label-color: var(--paper-red-500);
+            icewhite-radio-button.red {
+              --icewhite-radio-button-checked-color: white;
+              --icewhite-radio-button-checked-background-color: red;
+              --icewhite-radio-button-unchecked-color: red;
+              --icewhite-radio-button-unchecked-background-color: white;
             }
-            paper-radio-button.green {
-              --paper-radio-button-checked-color: var(--paper-green-500);
-              --paper-radio-button-checked-ink-color: var(--paper-green-500);
-              --paper-radio-button-unchecked-color: var(--paper-green-900);
-              --paper-radio-button-unchecked-ink-color: var(--paper-green-900);
-              --paper-radio-button-label-color: var(--paper-green-500);
+            icewhite-radio-button.green {
+              --icewhite-radio-button-checked-color: white;
+              --icewhite-radio-button-checked-background-color: green;
+              --icewhite-radio-button-unchecked-color: green;
+              --icewhite-radio-button-unchecked-background-color: white;
             }
           </style>
         </custom-style>
 
-        <paper-radio-button class="red">Radio</paper-radio-button>
-        <paper-radio-button checked class="green">Radio</paper-radio-button>
+        <icewhite-radio-button class="red">Radio</icewhite-radio-button>
+        <icewhite-radio-button checked class="green">Radio</icewhite-radio-button>
       </template>
     </demo-snippet>
   </div>
